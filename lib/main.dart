@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:watchlist/src/shared/data/models/tv_series_model.dart';
-import 'package:watchlist/src/features/tv_series/presentation/views/dashboard_screen.dart';
+import 'package:watchlist/src/features/shared/data/models/tv_series_model.dart';
+import 'package:watchlist/src/features/dashboard/presentation/views/dashboard_screen.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 void main() async {

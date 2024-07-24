@@ -3,7 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:watchlist/src/features/season/data/repositories/season_repository_impl.dart';
 import 'package:watchlist/src/features/season/domain/entities/season_detail.dart';
 import 'package:watchlist/src/features/season/presentation/viewmodels/season_detail_viewmodel.dart';
-import 'package:watchlist/src/providers.dart';
+import 'package:watchlist/src/features/shared/providers/datasource_providers.dart';
 
 final seasonRepositoryProvider = Provider(
   (ref) => SeasonRepositoryImpl(

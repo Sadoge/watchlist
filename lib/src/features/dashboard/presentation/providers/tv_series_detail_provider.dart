@@ -2,7 +2,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:watchlist/src/features/dashboard/data/repositories/tv_series_detail_repository_impl.dart';
 import 'package:watchlist/src/features/dashboard/domain/entities/tv_series_detail.dart';
 import 'package:watchlist/src/features/dashboard/presentation/viewmodels/tv_series_detail_viewmodel.dart';
-import 'package:watchlist/src/providers.dart';
+import 'package:watchlist/src/features/shared/providers/datasource_providers.dart';
 
 final tvSeriesDetailRepositoryProvider = Provider(
   (ref) => TVSeriesDetailRepositoryImpl(
